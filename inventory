@@ -1,8 +1,8 @@
 192.124.3.45
 186.234.76.45
 
-; [localhost]
-; localhost
+[localhost]
+localhost
 
 ; [localhost:vars]
 ; course="DevOps321"
