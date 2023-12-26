@@ -1,6 +1,6 @@
 # TASK level variables
 - name: variablw with task level
-  host: localhost
+  hosts: localhost
   vars:
     course: "DevOps321"
     Trainer: "sivakumar"
