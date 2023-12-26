@@ -18,11 +18,11 @@
     ansible.builtin.debug:
       msg: "name:{{name}}"
     
-    - name: print list
-      ansible.buitin.debug:
-       msg: "skills:{{skills}}"
+  - name: print list
+    ansible.buitin.debug:
+      msg: "skills:{{skills}}"
 
-    - name: print map
-      ansible.builtin.debug:
-        msg: "Experience: {{Experience}}"
+  - name: print map
+    ansible.builtin.debug:
+      msg: "Experience: {{Experience}}"
 
