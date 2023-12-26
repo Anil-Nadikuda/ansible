@@ -1,9 +1,8 @@
 - name: datatypes 
   hosts: localhosts
-  tasks:
   vars:
-    name: shiva
-    skills:
+    NAME: shiva
+    Skills:
     - DevOps
     - Shell
     - Ansible
@@ -16,11 +15,11 @@
   tasks:
   - name: print key value pairs
     ansible.builtin.debug:
-      msg: "name:{{name}}"
+      msg: "name:{{NAME}}"
     
   - name: print list
     ansible.buitin.debug:
-      msg: "skills:{{skills}}"
+      msg: "skills:{{Skills}}"
 
   - name: print map
     ansible.builtin.debug:
