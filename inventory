@@ -1,10 +1,10 @@
 [localhost]
 localhost
 
-; [localhost:vars]
-; course="DevOps321"
-; Trainer="sivakumar"
-; Duration="110HRS"
+[localhost:vars]
+course="DevOps321"
+Trainer="sivakumar"
+Duration="110HRS"
 
 [web]
 3.84.13.172
