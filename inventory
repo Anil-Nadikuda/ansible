@@ -1,6 +1,15 @@
 192.124.3.45
 186.234.76.45
 
+[localhost]
+localhost
+
+
+[localhost:vars]
+course:"DevOps321"
+Trainer:"sivakumar"
+Duration:"110HRS"
+
 [web]
 3.84.13.172
 
